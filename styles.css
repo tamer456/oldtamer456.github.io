@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: lightblue;
 }
 
 nav {
@@ -14,8 +14,6 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
   border-bottom: solid 1px #aaa;
   background-color: #eee;
 }
@@ -43,4 +41,9 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
