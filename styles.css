@@ -9,29 +9,21 @@ body {
   background-color: lightblue;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+label[id="tos"] {
+  color: red;
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
+input[type="checkbox"]:checked {
+  width: 25px;
+  height: 25px;
 }
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+input[id="accept"]:checked {
+  color: green;
+}
+
+input[type="radio"]:checked {
+  margin-left: 25px;
 }
 
 main {
@@ -41,9 +33,4 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
-}
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
 }
