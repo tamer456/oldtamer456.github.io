@@ -19,7 +19,7 @@
       }  
 
       ul li::marker {
-        color: red;
+        color: purple;
         font-size: 1.5em;
       }
 
@@ -29,6 +29,11 @@
 
       a:visited {
         color: forestgreen;
+      }
+
+      legend {
+        border:2px solid Red;
+        background-color: lightgrey;
       }
       
     </style>
@@ -44,45 +49,51 @@
     </ul>
   </nav>
     <main>
-      <p id="1">Top 3 lists in HTML (my honest opinion)</p>
-        <ol>
-          <li>ul</li>
-          <li>ol</li>
-          <li>dl</li>
-        </ol>
+      <legend for="ol">
+        <p id="1">Top 3 lists in HTML (my honest opinion)</p>
+          <ol>
+            <li>ul</li>
+            <li>ol</li>
+            <li>dl</li>
+          </ol>
+      </legend>
       <br><br>
-      <p id="2">List of items to buy:</p>
-        <dl>
-          <ul>
-            <li><dt>Coffee</dt></li>
-              <dd>- 100 pt.</dd>
-            <li><dt>Bread</dt></li>
-              <dd>- white or black loaf</dd>
-            <li><dt>Juice</dt></li>
-              <dd>- orange or "mors" drink</dd>
-            <li><dt>Something else</dt></li>
-              <dd>- look for some food</dd>
-          </ul>
-        </dl>
+      <legend>
+        <p id="2">List of items to buy:</p>
+          <dl>
+            <ul>
+              <li><dt>Coffee</dt></li>
+                <dd>- 100 pt.</dd>
+              <li><dt>Bread</dt></li>
+                <dd>- white or black loaf</dd>
+              <li><dt>Juice</dt></li>
+                <dd>- orange or "mors" drink</dd>
+              <li><dt>Something else</dt></li>
+                <dd>- look for some food</dd>
+            </ul>
+          </dl>
+      </legend>
       <br><br>
-      <p id="3">Table:</p>
-        <table>
-          <tr>
-            <th>Person</th>
-            <th>Address</th>
-            <th>Country</th>
-          </tr>
-          <tr>
-            <td><a href="https://youtu.be/GmESG58YRnY">Fafnazar</a></td>
-            <td>Kabanbay batyra 22/8</td>
-            <td>Kazakhstan</td>
-          </tr>
-          <tr>
-            <td><a href="https://youtu.be/FTu_ndnh-wc">Maksim</a></td>
-            <td>Victory st. 2/1</td>
-            <td>Russia</td>
-          </tr>
-        </table>
+      <legend>
+        <p id="3">Table:</p>
+          <table>
+            <tr>
+              <th>Person</th>
+              <th>Address</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td><a href="https://youtu.be/GmESG58YRnY">Fafnazar</a></td>
+              <td>Kabanbay batyra 22/8</td>
+              <td>Kazakhstan</td>
+            </tr>
+            <tr>
+              <td><a href="https://youtu.be/FTu_ndnh-wc">Maksim</a></td>
+              <td>Victory st. 2/1</td>
+              <td>Russia</td>
+            </tr>
+          </table>
+      </legend>
     </main>
   </body>
 </html>
