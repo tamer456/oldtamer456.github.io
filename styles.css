@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   display: flex;
   box-sizing: border-box;
-  background-color: #282c35;
+  background-color: lightblue;
   font-weight: 600;
 }
 
